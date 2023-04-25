@@ -1,7 +1,7 @@
 package postnet;
 /**
  * Definimos ticket con sus atributos
- * @author 1dam
+ * @author 1dam Ana Isabel Ponce Pérez
  */
 class Ticket {
   
@@ -19,8 +19,9 @@ class Ticket {
         this.nombreApellido = nombreApellido;
         this.montoTotal = montoTotal;
         this.montoPorCuota = montoPorCuota;
-    }      
+    }
 
+    // GETS
 
     public String getNombreApellido() {
         return nombreApellido;
@@ -33,7 +34,8 @@ class Ticket {
     public double getMontoPorCuota() {
         return montoPorCuota;
     }
-    
+
+    //SETS
     public void setNombreApellido(String nombreApellido) {
         this.nombreApellido = nombreApellido;
     }
